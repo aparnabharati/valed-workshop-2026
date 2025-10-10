@@ -4,7 +4,7 @@ title: Home
 
 # Visual Art, Generative AI, and the Legal/Ethical Dilemma Workshop @ WACV 2026
 
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
+{% include figure.html img=".jpg" alt="intro image here" caption="Library workshop" width="75%" %}
 
 Generative AI has transformed how visual art is created and circulated. Text-to-image generation systems such as Stable Diffusion, DALL·E, and Midjourney can instantly produce artworks inspired by centuries of human creativity. While these technologies democratize access to artistic tools, they also raise urgent questions about copyright, artistic integrity, and provenance. Recent controversies underscore the dilemma:
 
@@ -25,8 +25,6 @@ This workshop will bring together researchers, artists, legal scholars, and indu
 {% if lesson.nav == true %}- [{{ lesson.title }}]({{ lesson.url | relative_url }}){% endif %}
 {% endfor %}
 </div>
-
-Hosted by [University of Idaho Library](http://www.lib.uidaho.edu/), {{ site.pub_year }}.
  
 > built using [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/)
 >
