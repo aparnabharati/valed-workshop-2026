@@ -1,49 +1,49 @@
-# Organizers 展示使用指南
+# Organizers Display Guide
 
-## 📋 概览
+## Overview
 
-现在 `4-resources.md` 使用了一个响应式的3列布局来展示组织者信息。每个组织者都以卡片形式展示，包含照片、姓名、职位、机构和联系方式。
+The `4-resources.md` file now uses a responsive 3-column layout to display organizer information. Each organizer is displayed as a card containing their photo, name, position, affiliation, and contact information.
 
-## 🎨 特性
+## Features
 
-- **3列布局**：桌面端显示3列
-- **响应式设计**：
-  - 平板设备（<800px）：2列
-  - 手机设备（<600px）：1列
-- **悬停效果**：鼠标悬停时卡片轻微上浮并显示阴影
-- **圆形头像**：180x180px 圆形裁剪
-- **可选链接**：Email 和个人网站链接
+- **3-column layout**: Displays 3 columns on desktop
+- **Responsive design**:
+  - Tablet devices (<800px): 2 columns
+  - Mobile devices (<600px): 1 column
+- **Hover effects**: Cards slightly lift and show shadow on mouse hover
+- **Circular avatars**: 150x150px circular crop
+- **Optional links**: Email and personal website links
 
-## 📝 使用方法
+## Usage
 
-### 添加组织者
+### Adding an Organizer
 
-在 `4-resources.md` 中的 `<div class="organizers-grid">` 标签内添加：
+Add the following inside the `<div class="organizers-grid">` tag in `4-resources.md`:
 
 ```liquid
 {% include organizer-card.html 
    img="photo.jpg" 
-   name="张三" 
-   title="教授" 
-   affiliation="某某大学"
-   email="zhangsan@example.com"
+   name="John Doe" 
+   title="Professor" 
+   affiliation="University Name"
+   email="john@example.com"
    website="https://example.com" %}
 ```
 
-### 参数说明
+### Parameters
 
-| 参数 | 必填 | 说明 |
-|------|------|------|
-| `img` | ✅ | 图片文件名（放在 `images/` 目录） |
-| `name` | ✅ | 组织者姓名 |
-| `title` | ✅ | 职位/头衔 |
-| `affiliation` | ✅ | 所属机构 |
-| `email` | ❌ | 电子邮件（可选） |
-| `website` | ❌ | 个人网站（可选） |
+| Parameter | Required | Description |
+|-----------|----------|-------------|
+| `img` | ✅ | Image filename (place in `images/` directory) |
+| `name` | ✅ | Organizer name |
+| `title` | ✅ | Position/title |
+| `affiliation` | ✅ | Institution/affiliation |
+| `email` | ❌ | Email address (optional) |
+| `website` | ❌ | Personal website (optional) |
 
-### 示例
+### Examples
 
-#### 基本示例（无联系方式）
+#### Basic Example (without contact info)
 ```liquid
 {% include organizer-card.html 
    img="john.jpg" 
@@ -52,7 +52,7 @@
    affiliation="MIT" %}
 ```
 
-#### 完整示例（含联系方式）
+#### Complete Example (with contact info)
 ```liquid
 {% include organizer-card.html 
    img="jane.jpg" 
@@ -63,120 +63,120 @@
    website="https://janesmith.com" %}
 ```
 
-## 🖼️ 准备图片
+## Image Preparation
 
-### 图片要求
-- **格式**：JPG、PNG 或 GIF
-- **建议尺寸**：至少 400x400px（会被裁剪为圆形）
-- **比例**：正方形或接近正方形效果最佳
-- **位置**：放在 `images/` 目录
+### Image Requirements
+- **Format**: JPG, PNG, or GIF
+- **Recommended size**: At least 400x400px (will be cropped to circular)
+- **Aspect ratio**: Square or near-square works best
+- **Location**: Place in `images/` directory
 
-### 图片处理建议
-1. 使用正方形照片
-2. 确保人脸居中
-3. 建议背景简洁
-4. 文件大小控制在 500KB 以内
+### Image Processing Tips
+1. Use square photos
+2. Ensure face is centered
+3. Simple backgrounds recommended
+4. Keep file size under 500KB
 
-### 添加图片步骤
-1. 将照片复制到 `images/` 目录
-2. 重命名为有意义的文件名（如：`aparna-bharati.jpg`）
-3. 在 organizer-card 中引用文件名
+### Steps to Add Images
+1. Copy photo to `images/` directory
+2. Rename to a meaningful filename (e.g., `aparna-bharati.jpg`)
+3. Reference the filename in organizer-card
 
-## 🎨 样式自定义
+## Style Customization
 
-如需修改样式，编辑 `_sass/_custom.scss` 文件：
+To modify styles, edit the `_sass/_custom.scss` file:
 
-### 修改头像大小
+### Modify Avatar Size
 ```scss
 .organizer-photo img {
-    width: 200px;    // 修改这里
-    height: 200px;   // 修改这里
+    width: 200px;    // Change this
+    height: 200px;   // Change this
     border-radius: 50%;
 }
 ```
 
-### 修改卡片间距
+### Modify Card Spacing
 ```scss
 .organizers-grid {
-    gap: 50px;  // 修改间距
+    gap: 50px;  // Adjust spacing
 }
 ```
 
-### 修改悬停效果
+### Modify Hover Effect
 ```scss
 .organizer-card:hover {
-    transform: translateY(-10px);  // 增加移动距离
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  // 更深的阴影
+    transform: translateY(-10px);  // Increase lift distance
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  // Deeper shadow
 }
 ```
 
-### 修改列数
+### Modify Number of Columns
 ```scss
 .organizers-grid {
-    grid-template-columns: repeat(4, 1fr);  // 改为4列
+    grid-template-columns: repeat(4, 1fr);  // Change to 4 columns
 }
 ```
 
-## 📱 响应式断点
+## Responsive Breakpoints
 
-当前断点设置（在 `css/main.scss` 中定义）：
+Current breakpoint settings (defined in `css/main.scss`):
 
-- **$on-palm**: 600px（手机）
-- **$on-laptop**: 800px（平板/笔记本）
+- **$on-palm**: 600px (mobile)
+- **$on-laptop**: 800px (tablet/laptop)
 
-布局变化：
-- **> 800px**：3列
-- **600px - 800px**：2列
-- **< 600px**：1列
+Layout changes:
+- **> 800px**: 3 columns
+- **600px - 800px**: 2 columns
+- **< 600px**: 1 column
 
-## 🔧 故障排除
+## Troubleshooting
 
-### 图片不显示
-1. 检查图片是否在 `images/` 目录
-2. 检查文件名是否正确（区分大小写）
-3. 检查文件扩展名是否正确
+### Images Not Displaying
+1. Check if image is in `images/` directory
+2. Verify filename is correct (case-sensitive)
+3. Check file extension is correct
 
-### 布局错乱
-1. 确保 `<div class="organizers-grid">` 标签完整
-2. 检查每个 organizer-card 的语法是否正确
-3. 清除浏览器缓存
+### Layout Issues
+1. Ensure `<div class="organizers-grid">` tags are complete
+2. Check syntax of each organizer-card
+3. Clear browser cache
 
-### 样式未生效
-1. 确保修改了 `_sass/_custom.scss`
-2. 重新构建 Jekyll 站点
-3. 强制刷新浏览器（Ctrl+Shift+R）
+### Styles Not Applied
+1. Ensure you modified `_sass/_custom.scss`
+2. Rebuild Jekyll site
+3. Force refresh browser (Ctrl+Shift+R)
 
-## 💡 最佳实践
+## Best Practices
 
-1. **保持一致性**：所有组织者使用相同的图片尺寸和风格
-2. **信息完整**：尽量填写所有可选字段
-3. **顺序安排**：按重要性或字母顺序排列
-4. **可访问性**：确保图片有合适的 alt 文本（组件已自动添加）
+1. **Consistency**: Use same image size and style for all organizers
+2. **Complete information**: Fill in all optional fields when possible
+3. **Ordering**: Arrange by importance or alphabetical order
+4. **Accessibility**: Ensure images have appropriate alt text (automatically added by component)
 
-## 🌟 高级用法
+## Advanced Usage
 
-### 添加更多组织者（4个或更多）
+### Adding More Organizers (4 or more)
 
-如果有4个或更多组织者，可以修改为4列布局：
+If you have 4 or more organizers, you can modify to 4-column layout:
 
 ```scss
 // _sass/_custom.scss
 .organizers-grid {
-    grid-template-columns: repeat(4, 1fr);  // 4列
+    grid-template-columns: repeat(4, 1fr);  // 4 columns
     
     @media screen and (max-width: $on-laptop) {
-        grid-template-columns: repeat(2, 1fr);  // 平板2列
+        grid-template-columns: repeat(2, 1fr);  // 2 columns on tablet
     }
     
     @media screen and (max-width: $on-palm) {
-        grid-template-columns: 1fr;  // 手机1列
+        grid-template-columns: 1fr;  // 1 column on mobile
     }
 }
 ```
 
-### 添加社交媒体链接
+### Adding Social Media Links
 
-修改 `_includes/organizer-card.html`，在现有链接后添加：
+Modify `_includes/organizer-card.html` and add after existing links:
 
 ```html
 {% if include.twitter %}
@@ -186,20 +186,20 @@
 {% endif %}
 ```
 
-使用时：
+Usage:
 ```liquid
 {% include organizer-card.html 
    name="Name"
    twitter="username" %}
 ```
 
-## 📚 相关文件
+## Related Files
 
-- `4-resources.md` - Organizers 页面内容
-- `_includes/organizer-card.html` - 组织者卡片组件
-- `_sass/_custom.scss` - 样式定义
-- `images/` - 图片目录
+- `4-resources.md` - Organizers page content
+- `_includes/organizer-card.html` - Organizer card component
+- `_sass/_custom.scss` - Style definitions
+- `images/` - Image directory
 
 ---
 
-**需要帮助？** 查看项目的 README.md 或提交 issue。
+**Need help?** Check the project README.md or submit an issue.
