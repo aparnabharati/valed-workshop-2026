@@ -1,38 +1,45 @@
 ---
-title: Intro
+title: Call for Papers
 nav: true
 ---
 
-# Introduction
+# Call for Papers
 
-One amazingly useful GitHub feature is [GitHub Pages](https://guides.github.com/features/pages/){:target='_blank'}.
-It provides free static web hosting from any repository.
-Gh-pages is intended to host relatively simple sites for your GitHub portfolio, project, or documentation.
-Because it is free and a valuable transferable skill, this is a great option for teaching and learning.
+We solicit papers in areas including (but not limited to):
 
-Many organizations are using GitHub to collaboratively create and publish instructional websites. 
-For example: 
+• Dataset Auditing and Bias Discovery - Detecting unauthorized use of artworks in training data and
+evaluating them for demographic or cultural biases.
 
-- [Programming Historian](http://programminghistorian.org/)
-- [Software Carpentry](https://software-carpentry.org/), [Data Carpentry](http://www.datacarpentry.org/), [Library Carpentry](https://librarycarpentry.org/)
-- this site!
+• Style Mimicry and Protection - Metrics for measuring “style similarity” and identity leakage and
+technical defenses against unauthorized style transfer
 
-> Note:
-> There are *soft* limits and guidelines for gh-pages usage: sites should be < 1GB, use < 100GB bandwidth per month, and make < 10 builds per hour.
-> If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
-> All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene sex, or illegal stuff.
+• Forensics and Provenance - Watermarking, fingerprinting, and AI-based methods for tracing gener-
+ated images back to training samples
 
-# workshop-template
+• Legal and Ethical Dimensions - Copyright, derivative works, and substantial similarity tests for AI
+art in international frameworks, moral rights, creative misuse, and artist attribution
 
-`workshop-template` is a Jekyll project to create a simple workshop website, based on the [Minima theme](https://github.com/jekyll/minima){:target='_blank'}, designed for hosting on [gh-pages](https://pages.github.com/){:target='_blank'}.
+• Human–AI Collaboration - Human–AI co-creativity in visual art and user perception studies: au-
+thenticity, trust, and cultural reception
 
-It works best for about 5 pages of instructions, plus index, all written in Markdown. 
-The navigation to the main pages is exposed at top and bottom of each page for easy stepping through the lessons.
+• Societal and Policy Impact - Implications for creative industries, museums, and digital marketplaces;
+Responsible licensing, compensation models, and collective rights management
 
-## Why?
+Submissions can include short papers (up to 4 pages including references) or full papers (up to 8 pages
+excluding references) in the WACV main conference format. Accepted full papers will be included in the
+WACV proceedings. When deciding whether a submission should be a short paper or a full paper, please
+consider the significance and novelty of the contributions. If the proposed approach is well-developed with
+sufficient theoretical and/or empirical justification, consider submitting a full paper. If the work is a simple
+extension or summary of published work in other venues or is in the proof-of-concept stage, a short paper
+will provide a good basis for discussion and feedback. We welcome papers that propose a new technical
+approach for any of the above, or claim to take a position regarding challenging and open-ended questions
+at the intersection of AI and Ethics in the Visual Art domain.
 
-Rather than making slides for a workshop, why not make a website? 
-It's easier to write, access, share, and reuse. 
-GitHub and gh-pages makes this super easy.
+# Important Dates
 
-It is a better [Open Educational Resource](https://en.wikipedia.org/wiki/Open_educational_resources){:target='_blank'} since anyone can easily fork and adapt!
+TBA
+
+## Submission site
+
+TBA
+
