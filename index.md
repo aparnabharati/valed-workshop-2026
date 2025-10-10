@@ -2,7 +2,7 @@
 title: Home
 ---
 
-<section id="home" class="section-hero">
+<section id="home" class="section-hero" markdown="1">
 
 # Visual Art, Generative AI, and the Legal/Ethical Dilemma Workshop @ WACV 2026
 
@@ -44,7 +44,7 @@ This workshop will bring together researchers, artists, legal scholars, and indu
 
 ---
 
-<div class="page-footer">
+<div class="page-footer" markdown="1">
 
 > built using [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/)
 >
