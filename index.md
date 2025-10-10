@@ -25,12 +25,6 @@ This workshop will bring together researchers, artists, legal scholars, and indu
 ---
 
 <div markdown="0">
-{% include page-section.html file="0-prep.md" id="about" %}
-</div>
-
----
-
-<div markdown="0">
 {% include page-section.html file="1-intro.md" id="call-for-papers" %}
 </div>
 
