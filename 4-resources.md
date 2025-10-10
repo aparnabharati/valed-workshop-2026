@@ -5,6 +5,8 @@ nav: true
 
 # Resources
 
+{% include figure.html img="aparna.jpg" alt="cat" caption="Aparna Bharati, Assistant Professor, Lehigh University" width="50%" %}
+
 To learn how to use `workshop-template`, the [Readme](https://github.com/evanwill/workshop-template/blob/main/README.md) and content pages have some documentation.
 
 Other workshop sites using this template:
