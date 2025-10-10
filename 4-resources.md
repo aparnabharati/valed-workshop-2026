@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: Organizers
 nav: true
 ---
 
@@ -32,22 +32,4 @@ To learn more check out Hellow World on [GitHub Guides](https://guides.github.co
 - [Markdown in a Minute](https://evanwill.github.io/_drafts/notes/markdown-minute.html)
 - GitHub Guide [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
-### YAML
 
-[YAML](http://www.yaml.org/) is a human readable plain text data format.
-It is used in Jekyll for configuration, site data, and front matter.
-Jekyll projects are [configured](https://jekyllrb.com/docs/configuration/) using the `_config.yml` file.
-
-### Liquid
-
-[Liquid](http://shopify.github.io/liquid/) is a flexible template language.
-[In Jekyll](https://jekyllrb.com/docs/templates/) it allows you to layout pages built from modular components and data, using the `_includes`, `_layouts`, and `_data` directories.
-Liquid includes features such as operators, loops, and filters to manipulate raw content. 
-Liquid statements are enclosed by {% raw %}`{%  %}`{% endraw %} and variables in {% raw %}`{{  }}`{% endraw %}.
-
-### Sass  
-
-[Sass](http://sass-lang.com/) is a CSS extension / preprocessor. 
-All normal CSS is valid SCSS, but Sass adds many powerful functions and programatic features. 
-Writing SCSS is often easier and more sensible, for example by supporting nesting, variables, and operators. 
-Jekyll lets you write SASS in modular chucks called partials, in the `_sass` directory, that will be combined and compiled into normal CSS files when the site is built.
