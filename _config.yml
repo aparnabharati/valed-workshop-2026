@@ -8,10 +8,10 @@
 
 # Site settings
 # title appears in the header
-title: workshop-template
+title: VALED@WACV 2026
 # description and keywords for meta tags
-description: "Create an OER workshop website quick and easy!"
-keywords: "workshops, OER, Open Education, websites, gh-pages, jekyll"
+description: "Website for the Workshop on Visual Art, Generative AI, and the Legal/Ethical Dilemma"
+keywords: "Visual Art, Protection, Provenance, Image Generation and Editing, Copyright Infringement"
 
 # author settings for cc-by, appears in the footer
 author: evan will
