@@ -1,21 +1,27 @@
 ---
-title: Prep
+title: About
 nav: true
 ---
 
-# Workshop Prep
+# Visual Art, Generative AI, and the Legal/Ethical Dilemma Workshop @ WACV 2026
 
-To create your own materials using `workshop-template`, please create a free [GitHub account](https://github.com/join) if you do not have one already.
-Basic familiarity with the GitHub web interface will be helpful.
-
-For a quick introduction check out GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/) and [Try Git](https://try.github.io/).
-
-It is possible to create a website with this template using only GitHub's web interface--it works great!
-However, for more advanced uses you will want Git, Ruby, and Jekyll installed on your computer to do local development.
-
-1. Have a [GitHub](https://github.com) account.
-2. Fork or import this [repository](https://github.com/evanwill/workshop-template).
-3. Optional: have [Git](https://git-scm.com/), [Jekyll](https://jekyllrb.com/), and a nice [text editor](https://code.visualstudio.com/) installed.
+Generative AI has transformed how visual art is created and circulated. Text-to-image generation systems
+such as Stable Diffusion, DALL·E, and Midjourney can instantly produce artworks inspired by centuries
+of human creativity. While these technologies democratize access to artistic tools, they also raise urgent
+questions about copyright, artistic integrity, and provenance. Recent controversies underscore the dilemma:
+• In 2023, artists filed lawsuits alleging that diffusion models trained on datasets like LAION-5B in-
+fringed their copyrights by replicating distinctive styles without consent.
+• High-profile controversies have emerged around “style mimicry,” where AI systems can reproduce
+the brushwork and palette of living artists—prompting protests under hashtags like #ProtectArtists.
+• Legal uncertainty persists in landmark U.S. cases (e.g., Andersen v. Stability AI) and in international
+contexts, where courts debate whether AI-generated art constitutes a derivative work or violates the
+substantial similarity test.
+• Questions of authorship, provenance, and authenticity now intersect with computer vision and foren-
+sics—how do we trace whether a generated work contains identifiable fragments of training data?
+This workshop will bring together researchers, artists, legal scholars, and industry practitioners to crit-
+ically examine the technical, legal, and societal challenges of visual art in the age of generative AI. By
+hosting this dialogue at WACV, we seek to bridge the computer vision community with the creative and
+legal domains, and to set a research agenda that safeguards artistic integrity while enabling innovation
 
 # Local Jekyll Setup [optional]
 
