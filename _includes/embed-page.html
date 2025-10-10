@@ -1,0 +1,12 @@
+{% assign page_file = include.file %}
+{% assign section_id = include.id %}
+
+{% for p in site.pages %}
+  {% assign page_name = p.path | split: "/" | last %}
+  {% if page_name == page_file %}
+<section id="{{ section_id }}" class="section-content">
+{{ p.content }}
+</section>
+  {% endif %}
+{% endfor %}
+

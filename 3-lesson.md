@@ -7,7 +7,7 @@ nav: true
 
 TBA
 
-Edit the lesson Markdown files to create content pages.
+<!-- Edit the lesson Markdown files to create content pages.
 
 [Markdown](https://daringfireball.net/projects/markdown/) is a standard to [simplify writing](https://evanwill.github.io/_drafts/notes/writing-markdown.html) content for the web. 
 [GitHub markdown flavor](https://help.github.com/articles/basic-writing-and-formatting-syntax/) can be used any where on GitHub and in Jekyll.
@@ -42,4 +42,4 @@ Praesent congue, eros eget accumsan euismod, lorem dui vulputate leo, tincidunt 
 > Sed pharetra ipsum orci, eu cursus turpis semper egestas. 
 > Pellentesque sodales, felis auctor auctor rutrum, velit quam interdum erat, sit amet placerat urna nisl at justo.
 
-
+ -->
