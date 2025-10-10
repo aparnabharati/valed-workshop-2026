@@ -1,0 +1,31 @@
+{% comment %}
+  Organizer card component
+  Usage: {% include organizer-card.html 
+           img="photo.jpg" 
+           name="Name" 
+           title="Position" 
+           affiliation="Institution" 
+           email="email@example.com" 
+           website="https://..." %}
+{% endcomment %}
+
+<div class="organizer-card">
+  <div class="organizer-photo">
+    <img src="{{ include.img | prepend: '/images/' | relative_url }}" alt="{{ include.name }}">
+  </div>
+  <div class="organizer-info">
+    <h3 class="organizer-name">{{ include.name }}</h3>
+    <p class="organizer-title">{{ include.title }}</p>
+    <p class="organizer-affiliation">{{ include.affiliation }}</p>
+    {% if include.email %}
+    <p class="organizer-contact">
+      <a href="mailto:{{ include.email }}">✉️ Email</a>
+    </p>
+    {% endif %}
+    {% if include.website %}
+    <p class="organizer-contact">
+      <a href="{{ include.website }}" target="_blank">🌐 Website</a>
+    </p>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,15 @@
+{% comment %}
+  Include a page as a section in long-form content
+  Usage: {% include page-section.html file="1-intro.md" id="call-for-papers" %}
+{% endcomment %}
+
+{% assign page_file = include.file %}
+{% assign section_id = include.id %}
+
+{% for p in site.pages %}
+  {% if p.path == page_file %}
+    <section id="{{ section_id }}" class="section-content">
+      {{ p.content }}
+    </section>
+  {% endif %}
+{% endfor %}
