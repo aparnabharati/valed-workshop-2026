@@ -20,11 +20,7 @@ the brushwork and palette of living artists—prompting protests under hashtags 
 contexts, where courts debate whether AI-generated art constitutes a derivative work or violates the
 substantial similarity test.
 
-• Questions of authorship, provenance, and authenticity now intersect with computer vision and foren-
-sics—how do we trace whether a generated work contains identifiable fragments of training data?
+• Questions of authorship, provenance, and authenticity now intersect with computer vision and forensics—how do we trace whether a generated work contains identifiable fragments of training data?
 
-This workshop will bring together researchers, artists, legal scholars, and industry practitioners to crit-
-ically examine the technical, legal, and societal challenges of visual art in the age of generative AI. By
-hosting this dialogue at WACV, we seek to bridge the computer vision community with the creative and
-legal domains, and to set a research agenda that safeguards artistic integrity while enabling innovation
+This workshop will bring together researchers, artists, legal scholars, and industry practitioners to critically examine the technical, legal, and societal challenges of visual art in the age of generative AI. By hosting this dialogue at WACV, we seek to bridge the computer vision community with the creative and legal domains, and to set a research agenda that safeguards artistic integrity while enabling innovation
 
