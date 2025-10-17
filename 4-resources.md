@@ -13,7 +13,7 @@ nav: true
    title="Assistant Professor" 
    affiliation="Lehigh University"
    email="apb220@lehigh.edu"
-   website="https://aparnabharati.github.io" %}
+   website="https://www.aparnabharati.com/" %}
 
 {% include organizer-card.html 
    img="mooi2.jpg" 
