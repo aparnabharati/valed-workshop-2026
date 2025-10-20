@@ -39,7 +39,7 @@ at the intersection of AI and Ethics in the Visual Art domain.
 
 • Paper Submission Deadline - December 8, 2025 11:59 PM PST
 
-• Decision Notification to Authors - December 27, 2025
+• Decision Notification to Authors - December 29, 2025
 
 • Camera Ready Submission Deadline (as per main conference) - January 9, 2026 11:59 PM PST
 
