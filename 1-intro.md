@@ -35,7 +35,7 @@ will provide a good basis for discussion and feedback. We welcome papers that pr
 approach for any of the above, or claim to take a position regarding challenging and open-ended questions
 at the intersection of AI and Ethics in the Visual Art domain.
 
-# Important Dates
+## Important Dates
 
 • Paper Submission Deadline - December 8, 2025 11:59 PM PST
 
