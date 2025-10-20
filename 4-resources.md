@@ -37,5 +37,5 @@ nav: true
 
 ## Contact
 
-For questions about the workshop, please contact the organizers at [workshop-email@example.com](mailto:workshop-email@example.com).
+For questions about the workshop, please contact the organizers at [valed-wacv-organizers@googlegroups.com](mailto:valed-wacv-organizers@googlegroups.com).
 
