@@ -37,7 +37,13 @@ at the intersection of AI and Ethics in the Visual Art domain.
 
 # Important Dates
 
-TBA
+• Paper Submission Deadline - December 8, 2025 11:59 PM PST
+• Decision Notification to Authors - December 27, 2025
+• Camera Ready Submission Deadline (defined by the main conference) - January 9, 2026 11:59 PM PST
+
+## Submission Preparation Instructions
+
+Please follow the main conference format and submission guidelines to prepare your papers. Check WACV Submission Guidelines [here](https://wacv.thecvf.com/Conferences/2026/AuthorReviewerGuides)
 
 ## Submission site
 
