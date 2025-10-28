@@ -35,5 +35,7 @@ Please follow the main conference format and submission guidelines to prepare yo
 
 ## Submission site
 
-TBA
+We will use OpenReview for submissions: https://openreview.net/group?id=thecvf.com/WACV/2026/Workshop/VALED
+
+All authors need to have an OpenReview profile. Please plan ahead as it can take up to two weeks.
 
