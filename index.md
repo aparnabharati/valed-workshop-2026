@@ -5,6 +5,7 @@ layout: default
 
 <section id="home" class="section-hero" markdown="1">
 # Visual Art, Generative AI, and the Legal/Ethical Dilemma Workshop @ WACV 2026
+{: .center }
 
 {% include figure.html img="Gemini_Generated_Image_xyn0stxyn0stxyn0.png" alt="intro image here" caption="A stylized version of the WACV 2026 image" width="75%" %}
 
