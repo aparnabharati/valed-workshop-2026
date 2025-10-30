@@ -36,7 +36,7 @@ $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    1200px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
@@ -53,6 +53,25 @@ $on-laptop:        800px !default;
     @content;
   }
 }
+
+// @include media-query(1200px) {
+//   .wrapper,
+//   .post,
+//   .page {
+//     max-width: 1200px;
+//   }
+// }
+
+// .wrapper {
+//   width: 92%;
+//   max-width: $content-width; 
+//   margin: 0 auto;
+// }
+// @include media-query($on-palm) {
+//   .wrapper {
+//     width: 95%;
+//   }
+// }
 
 // Import partials.
 @import
