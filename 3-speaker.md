@@ -39,7 +39,7 @@ Text-to-image foundation models, propelled by large-scale diffusion architecture
 <!-- **Affiliation:** Institute of Computational Thinking  
 **Website:** https://example.org -->
 
-### **Bio**  
+<!-- ### **Bio**  
 
 ### **Talk Title**  
 **...**
@@ -47,4 +47,4 @@ Text-to-image foundation models, propelled by large-scale diffusion architecture
 ### **Abstract**  
 ...
 
---- -->
+--- --> -->
