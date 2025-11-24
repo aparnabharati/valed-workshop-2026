@@ -31,3 +31,28 @@ Shruti Agarwal, is a research scientist at Adobe’s Content Authenticity Initia
 </div>
 
 ---
+
+
+## 🗣️ Speaker 2: Dr. Vishal M. Patel  
+
+
+<div style="display:flex; align-items:flex-start; gap:20px;">
+
+<div style="flex:0 0 180px;">
+{% include figure.html img="VP_JHU.png" alt="Photo of Dr. Vishal M. Patel" caption="" width="100%" %}
+</div>
+
+<div style="flex:1;" markdown="1">
+
+### *Bio*
+Vishal M. Patel is an Associate Professor in the Department of Electrical and Computer Engineering (ECE) at Johns Hopkins University. His research focuses on computer vision, machine learning, image processing, medical image analysis, and biometrics. He has received a number of awards including the 2021 IEEE Signal Processing Society (SPS) Pierre-Simon Laplace Early Career Technical Achievement Award, the 2021 NSF CAREER Award, the 2021 IAPR Young Biometrics Investigator Award (YBIA), the 2016 ONR Young Investigator Award, and the 2016 Jimmy Lin Award for Invention. Patel serves as an associate editor for the IEEE Transactions on Pattern Analysis and Machine Intelligence journal and IEEE Transactions on Biometrics, Behavior, and Identity Science. He also chairs the conference subcommittee of IAPR Technical Committee on Biometrics (TC4). He is a fellow of the IAPR and a senior member of AAAI. 
+
+*Talk Title*: **Unlearning for Safer Generative AI: From Concept Erasure to Model Accountability**
+
+*Abstract*: Ensuring safety, accountability, and responsible use of modern generative AI models requires not only detecting harmful outputs, but also actively removing or unlearning undesirable concepts from the underlying models. In this talk, I will present our recent progress on robust concept erasure and unlearning, highlighting methods that allow generative models to “forget” unsafe, copyrighted, or ethically sensitive concepts while preserving their overall utility. I will discuss classifier-guided and black-box erasure techniques, which modify only the text embeddings at inference time and enable user-controlled filtering without accessing model weights. I will then describe STEREO, our two-stage adversarially robust framework that overcomes the utility–safety trade-off common in existing concept-erasure methods. The talk will primarily focus on unlearning as a key pillar for building safer, legally compliant, and ethically aligned generative AI systems.
+
+</div>
+
+</div>
+
+---
