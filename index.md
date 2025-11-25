@@ -32,11 +32,11 @@ This workshop will bring together researchers, artists, legal scholars, and indu
 
 <hr>
 
-{% include embed-page.html file="2-program.md" id="program-schedule" %}
+{% include embed-page.html file="3-speaker.md" id="speakers" %}
 
 <hr>
 
-{% include embed-page.html file="3-speaker.md" id="speakers" %}
+{% include embed-page.html file="2-program.md" id="program-schedule" %}
 
 <hr>
 

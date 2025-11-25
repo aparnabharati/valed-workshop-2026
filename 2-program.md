@@ -5,7 +5,7 @@ nav: true
 
 # Program Schedule
 
-TBA
+
 
 <!-- Edit the lesson Markdown files to create content pages.
 
