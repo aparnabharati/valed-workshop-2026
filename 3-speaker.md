@@ -6,8 +6,6 @@ nav: true
 # Keynote Speakers
 
 
----
-
 ## 🗣️ Speaker 1: Dr. Shruti Agarwal  
 
 
@@ -29,8 +27,6 @@ Shruti Agarwal, is a research scientist at Adobe’s Content Authenticity Initia
 </div>
 
 </div>
-
----
 
 
 ## 🗣️ Speaker 2: Dr. Vishal M. Patel  
@@ -54,5 +50,3 @@ Vishal M. Patel is an Associate Professor in the Department of Electrical and Co
 </div>
 
 </div>
-
----

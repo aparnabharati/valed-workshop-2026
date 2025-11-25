@@ -3,9 +3,19 @@ title: Program
 nav: true
 ---
 
-# Program Schedule
+# Program Schedule （Tentative）
 
+The workshop will be held on March 6 or March 7, 2026 (final date to be confirmed by the WACV organizing committee). The schedule below outlines the tentative program structure; exact timing and ordering may be adjusted once the workshop date is finalized.
 
+- Opening Remarks & Keynote Talk
+
+- Oral Session 
+
+- Poster Session & Demos
+
+- Panel Discussion
+
+- Closing Remarks
 
 <!-- Edit the lesson Markdown files to create content pages.
 
