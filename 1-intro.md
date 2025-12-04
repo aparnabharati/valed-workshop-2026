@@ -23,7 +23,7 @@ Submissions can include short papers (up to 4 pages including references) or ful
 
 ## Important Dates
 
-• Paper Submission Deadline - December 8, 2025 11:59 PM PST
+• Paper Submission Deadline - December 15, 2025 11:59 PM PST
 
 • Decision Notification to Authors - December 29, 2025
 
