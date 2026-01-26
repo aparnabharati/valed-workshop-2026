@@ -3,19 +3,20 @@ title: Program
 nav: true
 ---
 
-# Program Schedule （Tentative）
+# Program Schedule 
 
-The workshop will be held on March 6 or March 7, 2026 (final date to be confirmed by the WACV organizing committee). The schedule below outlines the tentative program structure; exact timing and ordering may be adjusted once the workshop date is finalized.
+**Date:** March 7, 2026  
+**Time:** 1:00 PM – 5:30 PM  
 
-- Opening Remarks & Keynote Talk
-
-- Oral Session 
-
-- Poster Session & Demos
-
-- Panel Discussion
-
-- Closing Remarks
+| Time            | Event                     |
+|-----------------|-----------------------------|
+| 1:00 – 1:15 PM | Opening Remarks             |
+| 1:15 – 2:15 PM | Invited Talk 1              |
+| 2:15 – 3:00 PM | Oral Paper Presentations    |
+| 3:00 – 3:15 PM | Coffee Break                |
+| 3:15 – 4:15 PM | Poster Session (All Papers) |
+| 4:15 – 5:15 PM | Invited Talk 2              |
+| 5:15 – 5:30 PM | Awards & Closing Remarks    |
 
 <!-- Edit the lesson Markdown files to create content pages.
 
