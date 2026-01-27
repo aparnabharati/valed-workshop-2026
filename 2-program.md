@@ -8,6 +8,8 @@ nav: true
 **Date:** March 7, 2026  
 **Time:** 1:00 PM – 5:30 PM  
 
+<div align="center">
+
 | Time            | Event                     |
 |-----------------|-----------------------------|
 | 1:00 – 1:15 PM | Opening Remarks             |
@@ -17,6 +19,8 @@ nav: true
 | 3:15 – 4:15 PM | Poster Session (All Papers) |
 | 4:15 – 5:15 PM | Invited Talk 2 Given by Dr. Shruti Agarwal             |
 | 5:15 – 5:30 PM | Awards & Closing Remarks    |
+
+</div>
 
 <!-- Edit the lesson Markdown files to create content pages.
 
