@@ -14,7 +14,7 @@ nav: true
 |-----------------|-----------------------------|
 | 1:00 – 1:15 PM | Opening Remarks             |
 | 1:15 – 2:15 PM | Invited Talk 1 Given by Dr. Vishal M. Patel              |
-| 2:15 – 3:00 PM | Oral Paper Presentations    |
+| 2:15 – 2:55 PM | Oral Paper Presentations    |
 | 3:00 – 3:15 PM | Coffee Break                |
 | 3:15 – 4:15 PM | Poster Session (All Papers) |
 | 4:15 – 5:15 PM | Invited Talk 2 Given by Dr. Shruti Agarwal             |
